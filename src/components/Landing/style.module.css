@@ -69,7 +69,8 @@
 .leftContainer {
   position: relative;
   display: flex;
-  padding: 2rem 8rem;
+  padding-left: 6rem ;
+  padding-top: 1rem;
   /* // align-items: center; */
   justify-content: center;
   flex-direction: column;
@@ -84,7 +85,7 @@
   justify-content: center;
   flex-direction: column;
   width: 100%;
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
 
 }
 
@@ -95,31 +96,35 @@
 
 .rightContainer {
   position: relative;
-  /* display: flex; */
-  width: 50%;
-  margin-right: 2rem;
-  padding-right: 3rem ;
+  display: flex;
+  width: 70%;
+  margin-left:-2rem;
+  /* margin-right: 1rem; */
+  /* padding-right: 1rem ; */
 }
 
 .simg {
-object-fit: contain;
- min-height: 600px;
- width: auto;
+position: relative;
+width: 50%;
+right:0;
+
+/* object-fit: contain; */
+ /* min-height: 600px; */
  padding: 1rem;
 }
 
 .textContainer h1 {
   margin: 0px;
 
-  font-size: 6rem;
+  font-size: 4rem;
   color: #E8F9E1;
   font-weight: 300;
 }
 
 .textContainer h5 {
   margin: 0px;
-  padding-top: 2rem;
-  font-size: 2rem;
+  padding-top: 1rem;
+  font-size: 1.3rem;
   color: #C7FCAE;
   font-weight: 400;
 }

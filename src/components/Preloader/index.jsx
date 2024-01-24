@@ -3,6 +3,8 @@ import styles from './style.module.scss';
 import { useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
 import { opacity, slideUp } from './anim';
+import Image from 'next/image';
+// import loaderLogo from '/images/landingLogo.png';
 
 const words = ["Hello", "Bonjour", "Ciao", "Olà", "やあ", "Hallå", "Guten tag", "Hallo"]
 
@@ -39,6 +41,12 @@ export default function Index() {
         <motion.div variants={slideUp} initial="initial" exit="exit" className={styles.introduction}>
             {dimension.width > 0 && 
             <>
+            {/* <Image
+            src='../../../public/images/landingLogo.png'
+            width={300}
+            height={100}
+            
+            /> */}
                 <motion.p variants={opacity} initial="initial" animate="enter"><span></span>dehlsen</motion.p>
                 <svg>
                     <motion.path variants={curve} initial="initial" exit="exit"></motion.path>

@@ -85,8 +85,8 @@ export default function Home() {
             </Rounded>
           </div>
         </div>
-{/* <SolarModel />     */}
-    <div className={styles.rightContainer}>
+        {/* <SolarModel />     */}
+        <div className={styles.rightContainer}>
           <Image
             //  className="simg"
             src="/images/sola.svg"
