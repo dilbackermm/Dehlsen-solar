@@ -13,6 +13,10 @@ import SolarModel from './SolarModel'
 
 export default function Home() {
 
+
+
+
+  
   // const firstText = useRef(null);
   // const secondText = useRef(null);
   // const slider = useRef(null);
